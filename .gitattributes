@@ -1,0 +1,3 @@
+** filter=crypt diff=crypt merge=crypt
+*.key filter=crypt diff=crypt merge=crypt
+.gitattributes !filter !diff
