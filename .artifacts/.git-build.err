@@ -1,0 +1,4 @@
+/bin/bash: line 1: cd: /var/folders/nd/s9g32trj0739jblc4z81gn980000gn/T/tmp.FznFvw4w: No such file or directory
+fatal: destination path 'nench' already exists and is not an empty directory.
+./nench.sh: line 155: free: command not found
+./nench.sh: line 161: free: command not found
