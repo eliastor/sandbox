@@ -1,0 +1,43 @@
+-------------------------------------------------
+ nench.sh v2019.07.20 -- https://git.io/nench.sh
+ benchmark timestamp:    2022-12-20 10:37:11 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU cores:    20
+Frequency:    1197.716 MHz
+RAM:          Swap:         -
+Kernel:       Linux 5.10.0-19-amd64 x86_64
+
+Disks:
+Filesystem     Type                 Size Inodes
+/dev/nvme0n1p6 ext4                 423G    27M
+
+CPU: SHA256-hashing 500 MB
+    1.534 seconds
+CPU: bzip2-compressing 500 MB
+    CPU: AES-encrypting 500 MB
+    
+ioping: seek rate
+    min/avg/max/mdev = 12.8 us / 19.6 us / 72.9 us / 2.17 us
+ioping: sequential read speed
+    generated 72.3 k requests in 5.00 s, 17.7 GiB, 14.5 k iops, 3.53 GiB/s
+
+dd: sequential write speed
+    1st run:    451.09 MiB/s
+    2nd run:    454.90 MiB/s
+    3rd run:    430.11 MiB/s
+    average:    445.37 MiB/s
+
+IPv4 speedtests
+    your IPv4:    188.232.129.xxxx
+
+    Cachefly CDN:         8.91 MiB/s
+    Leaseweb (NL):        2.00 MiB/s
+    Softlayer DAL (US):   0.00 MiB/s
+    Online.net (FR):      3.91 MiB/s
+    OVH BHS (CA):         1.77 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
